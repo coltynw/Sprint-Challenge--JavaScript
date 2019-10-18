@@ -103,89 +103,11 @@ console.log(nameList);
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called unisWithUni that contains them all. This will be an array of objects. Log the result. */
 
-// const uniCheck = () => {
-//   for (let i = 0; i < graduates.length; i++) {
-//     if (graduates[i] === "Uni") {
-//       unisWithUni.push(graduates[i]);
-//     }
-//   }
- 
-// } 
-// let unisWithUni = [];
-// console.log(uniCheck(`Uni`)); 
 
 
-// let unisWithUni = 
-//   graduates.filter(graduates => graduates.university === `Uni`);
-
-
-// const unisWithUni = graduates.filter(function(college) {
-//   return college.university ;
-// });
-
-// console.log(unisWithUni);
-
-
-
-// let unisWithUni = () => {
-//   let university = []
-//   for (let i = 0; i < graduates.length; i++){
-//     university.push(graduates[i]['Uni'])
-//   }
-//   return university.filter(college => college.university === `Uni`)
-// };
-// let carModeIsSorted = [];
-// console.log(unisWithUni());
-
-
-
-
-const unisWithUni = [];
-  for (let i = 0; i < graduates.length; i++) {
-    if (unisWithUni[i] === "Uni") {
-      unisWithUni.push(graduates[i]);
-    }
-    
-}
-
-console.log(JSON.stringify(unisWithUni));
-
-
-
-
-
-
-
-
-
-
-
-  
-// let unisWithUni = 
-// graduates.filter(university => university.indexOf("Uni") > -1);
-
-// const unisWithUni = [];
-//   for (let i = 0; i < graduates.length; i++) {
-//        if (graduates[i] === "Uni") {
-//          unisWithUni.push(graduates[i]);
-//        }
-// }
-// const unisWithUni = [];
-//   for (let i = 0; i < graduates.length; i++) {
-//     if (graduates[i].university === "Uni") {
-//        unisWithUni.push(graduates[i]);
-//     }
-
-// }
-// console.log(JSON.stringify(unisWithUni));
-
-// let PATTERN = 'Uni',
-//     filtered = graduates.filter(function (str) { return str.indexOf(PATTERN) === -1; });
-
-// console.log(PATTERN);
-
-// const unisWithUni = [];
-// console.log(unisWithUni);
+let unisWithUni = 
+  graduates.filter(graduates => graduates.university > `Uni`);
+ console.log(unisWithUni);
 
 
 // ==== ADVANCED Array Methods ====
